@@ -55,5 +55,7 @@ int main() {
 	for (int i = 0; i < usedSize; i++)
 		std::cout << intArray[i] << std::endl;
 
+	delete[] intArray;
+
 	system("PAUSE");
 }
